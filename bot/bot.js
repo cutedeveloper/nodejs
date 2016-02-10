@@ -7,6 +7,6 @@ var bot = new TelegramBot(token, {polling:true});
 bot.on('message', function(msg)
       {
          var chat_id = msg.chat.id;
-         bot.sendMessage(chat_id, 'salam');
+         bot.sendMessage(chat_id, '/1. salam');
       });
 
